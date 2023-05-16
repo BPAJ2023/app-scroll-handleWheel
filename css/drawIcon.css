@@ -8,15 +8,15 @@
 }
 
 .dot {
-  width: 10px;
-  height: 10px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
   background-color: rgb(41, 108, 223);
   display: block;
 }
 
 .navDotes li + li {
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 .dot--active {

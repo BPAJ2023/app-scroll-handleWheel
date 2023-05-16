@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(11, 144, 100);
+}
+
+.wraper {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color: #fff;
+  height: 100vh;
+  overflow: hidden;
+}
+.wraper .full-page {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: none;
+}
+.wraper .full-page .full-page__image {
+  position: relative;
+  width: 50%;
+  height: 50vh;
+}
+.wraper .full-page .full-page__title {
+  position: absolute;
+  top: 20%;
+  left: 60%;
+}
+.wraper .full-page .full-page__txt {
+  position: absolute;
+  width: 60%;
+  top: 50vh;
+  left: 20%;
+}
+.wraper .full-page--active {
+  display: block;
+}/*# sourceMappingURL=style.css.map */

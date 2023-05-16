@@ -1,0 +1,24 @@
+.navDotes {
+  position: fixed;
+  cursor: pointer;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  list-style: none;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgb(41, 108, 223);
+  display: block;
+}
+
+.navDotes li + li {
+  margin-top: 5px;
+}
+
+.dot--active {
+  background-color: rgb(66, 162, 226);
+}/*# sourceMappingURL=drawIcon.css.map */
